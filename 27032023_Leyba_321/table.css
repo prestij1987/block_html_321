@@ -1,0 +1,22 @@
+
+body{
+    background-color: blueviolet;
+}
+
+table{
+    height: 100px;
+    width: 200px;
+    background: grey;
+    margin: left;
+    
+    
+}   
+
+.square1 {
+    position: absolute;
+    background: orange;
+    width: 500x;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 100%;}

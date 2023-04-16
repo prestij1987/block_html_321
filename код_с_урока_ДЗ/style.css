@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+	padding: 0px;
+}
+
+body {
+	display: flex;
+	background-color: #ccc;
+	flex-wrap: wrap;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	justify-content: center;
+	vertical-align: center; 
+	height: 100vh;
+}
+
+div {
+	background-color: #fff;
+	margin-top: 20px;  /* снаружи */
+	margin-left: 20px;  /* снаружи */
+	padding: 10px; /* внутри */
+	/* min-width:18%;
+	max-width:28%; */
+	max-height: 15vh;
+}
+
+@media all and (orientation:portrait){
+ /* стили для указанного типа устройства и его
+ характеристик
+ */
+ body {
+	 background-color: red
+ }
+}
